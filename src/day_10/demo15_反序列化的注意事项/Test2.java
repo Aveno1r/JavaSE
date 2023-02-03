@@ -14,7 +14,7 @@ public class Test2 {
          */
         try (
                 // 1.创建反序列化流对象,关联目的地文件
-                ObjectInputStream ois = new ObjectInputStream(new FileInputStream("day10\\hhh\\person2.txt"));
+                ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:\\Users\\Rescale\\Desktop\\basic\\JavaSE\\input\\person2.txt"));
              ){
             // 2.反序列化---重构对象
             Person p = (Person)ois.readObject();

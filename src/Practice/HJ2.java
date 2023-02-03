@@ -14,10 +14,10 @@ public class HJ2 {
         输出输入字符串中含有该字符的个数。（不区分大小写字母
          */
 
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // 注意 hasNext 和 hasNextLine 的区别
-        String str = in.nextLine().toLowerCase();
-        char chr = in.next().toLowerCase().charAt(0);
+        String str = sc.nextLine().toLowerCase();
+        char chr = sc.next().toLowerCase().charAt(0);
         int count = 0;
         for(int i = 0;i < str.length();i++){
             if(str.charAt(i) - chr == 0){

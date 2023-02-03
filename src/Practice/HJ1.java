@@ -12,8 +12,8 @@ public class HJ1 {
         输出一个整数，表示输入字符串最后一个单词的长度。
          */
         //方法一
-//        Scanner in = new Scanner(System.in);
-//        String str = in.nextLine();
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.nextLine();
 //        String[] arr = str.split(" ");
 //        System.out.println((arr[arr.length - 1]).length());
         //方法二
